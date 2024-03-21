@@ -1,0 +1,313 @@
+ .container { 
+    border: 1px solid; 
+   border-color: brown;
+    }  
+
+
+
+@media screen and (max-width:962px) {
+
+    .banner_content h1 {
+        font-size: 48px;
+    }
+
+    .title_bar {
+
+        gap: 15px;
+    }
+
+
+    .menu_bar ul {
+        gap: 3px;
+    }
+
+    .btn {
+        padding: 10px 12px;
+    }
+
+
+    .client_grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .client {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .client_review p {
+        text-align: center;
+        max-width: 430px;
+    }
+
+    .client_desgntn h6 {
+        display: flex;
+        text-align: center;
+    }
+
+    .pricing_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .pricing_updates h6 {
+        font-size: 13px;
+    }
+
+    .pricing_label {
+        top: -50px;
+        right: -11px;
+    }
+
+
+    .product_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product_box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .prdt_item_content p {
+        max-width: 346px;
+    }
+
+    .product_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1.5fr);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 20px;
+    }
+
+    .logos_img {
+        width: 70%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:769px) {
+    .banner_image {
+        display: none;
+    }
+
+    .banner_content {
+        align-items: center;
+        gap: 19px;
+    }
+
+    .banner_content h1 {
+        text-align: center;
+    }
+
+    .menu_bar ul {
+        display: none;
+    }
+
+    .btn.text_white {
+        display: none;
+    }
+
+    .product_box {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .pricing_label h3 {
+        font-size: 24px;
+    }
+
+    .pricing_label {
+        width: 70px;
+        height: 70px;
+        border-radius: 52px;
+    }
+
+    .pricing_label {
+        top: -50px;
+        right: 8px;
+    }
+
+    .concept_content h2 {
+        gap: 25px;
+        align-items: center;
+    }
+
+    .concept_content {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .concept {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .concept_image {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+   
+}
+
+@media screen and (max-width:576px) {
+    h1 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .banner_content h6 {
+        font-size: 17px;
+    }
+
+    .pricing_grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+    .product_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing_label{
+        top: -19px;
+        right: -4px;
+    }
+    .product_box {
+        display: flex;
+    }
+
+    .prdt_item_content {
+        gap: 7px;
+    }
+
+    .footer_bottom {
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+
+    .footer_icons {
+        gap: 5px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:468px) {
+
+    .large {
+        width: 70%;
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 35px;
+    }
+
+    .header_action .filled_btn {
+        padding: 10px 22px 10px 22px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 53px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .banner_content h5 {
+        font-size: 12px;
+    }
+
+    .banner_content h6 {
+        font-size: 10px;
+    }
+
+    .banner_content h1 {
+        font-size: 38px;
+    }
+
+    .logos_grid {
+
+        grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+    }
+
+    .logos_img {
+       max-width: 70%;
+    }
+
+    .footer_watermark h6 {
+        font-size: 10px;
+        
+    }
+
+    .footer_items {
+        gap: 12px;
+    }
+
+    .footer_content {
+        gap: 15px;
+    }
+
+}
