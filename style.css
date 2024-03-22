@@ -30,7 +30,6 @@ ul {
 img {
     max-width: 100%;
     display: block;
-
 }
 .section {
     /* padding: 30px 0px; */
@@ -45,7 +44,6 @@ img {
 .header{
     padding: 20px 0px 20px 0px;
 }
-
 
 .container {
     margin: 0 auto;
@@ -233,7 +231,10 @@ a {
     border-radius: 44.79px;
     background-color: #fff;
 }
-
+.dropdown_menu{
+    display: flex;
+    flex-direction: column;
+}
 .oval_btn {
     border-radius: 37px;
     width: fit-content;
@@ -256,12 +257,15 @@ a {
     display: inline-block;
 }
 
+
 .concept {
     justify-content: space-between;
     display: flex;
 
 }
-
+.menu_bar ul li a:hover{
+    color: #252B42;
+}
 .concept_image {
     max-width: 50%;
 }
@@ -293,19 +297,12 @@ a {
 }
 
 .btn_icon a {
-    color: #1BA0AB;
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-/* .btn_icon{
-    color: #1BA0AB;
-    display: flex;
-    align-items:center;
-    gap: 5px;
-}
- */
 
 
 .menu_bar {
@@ -331,7 +328,7 @@ a {
     margin-bottom: 70px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .heading_content p {
@@ -572,7 +569,10 @@ a {
 
 
 }
-
+.dropdown_menu li a {
+    display: flex;
+    flex-direction: column;
+}
 .pricing_items p span {
     font-weight: 700;
 }
@@ -619,7 +619,9 @@ a {
     align-items: center;
     justify-content: center; 
 }
-
+.dropdown_menu{
+    display: block;
+}
 
 .pricing_label h3 {
     font-size: 24px;

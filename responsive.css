@@ -116,7 +116,6 @@
     .menu_bar ul {
         display: none;
     }
-
     .btn.text_white {
         display: none;
     }
@@ -171,9 +170,30 @@
         display: flex;
         justify-content: center;
     }
+    .prdt_item_content{
+        gap: 7px;
+    }
 
    
 }
+@media screen and (min-width:768px)
+{
+    .menu_bar ul li {
+        position: relative;
+    }
+    .dropdown_menu  {
+        visibility: hidden;
+        position: absolute;
+        opacity: 0;
+        
+    }
+    .menu_bar ul li:hover .dropdown_menu{
+       visibility: visible;
+       opacity: 1;
+    }
+    
+}
+    
 
 @media screen and (max-width:576px) {
     h1 {
@@ -219,7 +239,7 @@
     }
 
     .prdt_item_content {
-        gap: 7px;
+        gap: 10px;
     }
 
     .footer_bottom {
