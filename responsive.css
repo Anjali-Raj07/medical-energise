@@ -145,7 +145,7 @@
          opacity: 1;
          left: 0;
          top: 60px;
-         transition: 0.7s ease-in-out;
+         transition: 0.3s ease-in-out;
      }
 
      #check:checked~.dropdown_menu {
