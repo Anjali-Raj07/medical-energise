@@ -121,15 +121,18 @@
          visibility: hidden;
          position: fixed;
          display: block;
-         top: 65px;
+         top: 60px;
          left: -100px;
          opacity: 0;
+         width: 100px;
 
      }
 
      .menu_bar ul {
          display: flex;
          flex-direction: column;
+         position: absolute;
+         background-color: cadetblue;
      }
 
      .open_menu {
@@ -141,20 +144,24 @@
          visibility: visible;
          opacity: 1;
          left: 0;
-         top: 65px;
-         transition: 0s ease-in-out;
+         top: 60px;
+         transition: 0.7s ease-in-out;
      }
-#check:checked~.dropdown_menu{
-    
 
-}
+     #check:checked~.dropdown_menu {
+         visibility: visible;
+
+
+
+     }
+
      .dropdown_menu {
          visibility: hidden;
      }
 
-     .menu_bar li:hover .dropdown_menu {
+      .menu_bar li:hover .dropdown_menu {
          visibility: visible;
-     }
+     } 
 
      .btn.text_white {
          display: none;
