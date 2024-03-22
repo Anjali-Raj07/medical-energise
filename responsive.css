@@ -165,6 +165,7 @@
          left: 39px;
          width: 140px;
          transition: 0.3s ease-in-out;
+         background-color: cadetblue;
      }
      #check:checked~label i::before{
         content: '\f00d';
@@ -178,6 +179,7 @@
          left: 100px;
          width: 200px;
          display: block;
+         
      }
 
       .menu_bar li:hover .dropdown_menu {

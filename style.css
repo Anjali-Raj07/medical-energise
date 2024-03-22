@@ -643,15 +643,7 @@ a {
     font-weight: 700;
     text-align: center;
     color: #FFFFFF;
-    /* background: #E77C40;
-    width: 90px;
-    height: 90px;
-    border-radius: 52px;
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-}
+    }
 
 .heading_content span h2 {
     color: #FFFFFF;
