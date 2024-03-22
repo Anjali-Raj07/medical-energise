@@ -44,6 +44,9 @@ img {
 #check{
     display: none;
 }
+#check_sub{
+    display: none;
+}
 .open_menu{
     /* position: absolute; */
     visibility: hidden;
@@ -243,9 +246,9 @@ a {
     display: flex;
     flex-direction: column;
 }
-.dropdown_menu{
+/* .dropdown_menu{
     display: block;
-}
+} */
 .dropdown_menu li a {
     display: flex;
     flex-direction: column;
@@ -278,6 +281,9 @@ a {
     justify-content: space-between;
     display: flex;
 
+}
+.menu_bar ul li:hover a i{
+    transform: rotate(180deg);
 }
 .menu_bar ul li a:hover{
     color: #252B42;

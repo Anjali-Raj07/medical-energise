@@ -125,7 +125,15 @@
          left: -100px;
          opacity: 0;
          width: 100px;
-
+        height: calc(100%-65px);
+     }
+     .logo{
+        flex: 1;
+     }
+     .header{
+        position: fixed;
+        z-index: 997;
+        width: 100%;
      }
 
      .menu_bar ul {
@@ -133,6 +141,8 @@
          flex-direction: column;
          position: absolute;
          background-color: cadetblue;
+         width: 180px;
+        
      }
 
      .open_menu {
@@ -148,19 +158,32 @@
          transition: 0.3s ease-in-out;
      }
 
-     #check:checked~.dropdown_menu {
+     #check_sub:checked~.dropdown_menu {
          visibility: visible;
-
-
-
+         position: relative;
+         opacity: 1;
+         left: 39px;
+         width: 140px;
+         transition: 0.3s ease-in-out;
+     }
+     #check:checked~label i::before{
+        content: '\f00d';
      }
 
      .dropdown_menu {
          visibility: hidden;
+         opacity: 0;
+         position: absolute;
+         top: 0;
+         left: 100px;
+         width: 200px;
+         display: block;
      }
 
       .menu_bar li:hover .dropdown_menu {
          visibility: visible;
+         opacity: 1;
+         margin: 0px;
      } 
 
      .btn.text_white {
