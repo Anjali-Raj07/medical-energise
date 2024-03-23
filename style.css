@@ -47,6 +47,9 @@ img {
 #check_sub{
     display: none;
 }
+#check_super_sub{
+    display: none;
+}
 .open_menu{
     /* position: absolute; */
     visibility: hidden;
@@ -124,9 +127,9 @@ img {
     text-align: center;
 }
 
-.menu_bar ul li :hover {
+ .menu_bar ul li :hover {
     background-color:var(--primary-color);
-}
+} 
 
 .header_action {
     display: flex;
@@ -246,10 +249,11 @@ a {
     display: flex;
     flex-direction: column;
 }
-/* .dropdown_menu{
-    display: block;
+/* .dropdown_menu li a {
+    display: flex;
+    flex-direction: column;
 } */
-.dropdown_menu li a {
+.dropdown_sub_menu{
     display: flex;
     flex-direction: column;
 }
