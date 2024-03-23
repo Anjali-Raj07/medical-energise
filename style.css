@@ -50,7 +50,7 @@ img {
 #check_super_sub{
     display: none;
 }
-.hamburg_button{
+.menu_bar .hamburg_button{
     display: none;
 }
 .open_menu{
@@ -289,9 +289,6 @@ a {
     display: flex;
 
 }
-.menu_bar ul li:hover a i{
-    transform: rotate(180deg);
-}
 .menu_bar ul li a:hover{
     color: #252B42;
 }
@@ -352,6 +349,7 @@ a {
 .brand img {
     max-width: 100%;
 }
+
 
 .heading_content {
     margin-bottom: 70px;

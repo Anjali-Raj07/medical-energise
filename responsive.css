@@ -94,7 +94,7 @@
          width: 70%;
      }
 
-     .center {
+     .padding {
          padding: 90px 0px 90px 0px;
      }
 
@@ -104,6 +104,10 @@
  }
 
  @media screen and (max-width:769px) {
+    .banner_content h1 {
+        font-size: 43px;
+    }
+
      .banner_image {
          display: none;
      }
@@ -128,7 +132,16 @@
          height: calc(100% - 65px);
          overflow: auto;
      }
-
+     label{
+        display: flex;
+        gap: 90px;
+        align-items: center;
+    }
+   .check_super_sub label{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
      .logo {
          flex: 1;
      }
@@ -141,6 +154,14 @@
          position: fixed;
          z-index: 997;
          width: 100%;
+        
+     }
+     .padding{
+        padding: 80px 0px 50px;
+     }
+     .newsletter{
+        margin-top: 70px;
+        margin-bottom: 70px;
      }
 
      .menu_bar ul {
@@ -178,7 +199,7 @@
          left: 23px;
          width: 155px;
          /* top: 65px; */
-         /* transition: 0.3s ease-in-out; */
+         /* transition: 0.3s right ease-in-out; */
          /* background-color:#1BA0AB; */
      }
 
@@ -195,9 +216,12 @@
         /* transition: 0.3s ease-in-out; */
         /* background-color:#1BA0AB; */
     }
-    .menu_bar ul li .dropdown_menu li:hover label i {
-        transform: rotate(360deg);
+    #check_sub:checked ~.check_sub i {
+        transform: rotate(180deg);
     }
+    #check_super_sub:checked ~.check_super_sub i  {
+        transform: rotate(180deg);
+     }
 
      .dropdown_menu {
          visibility: hidden;
@@ -241,7 +265,7 @@
 
      .pricing_grid {
          grid-template-columns: repeat(2, 1fr);
-         gap: 20px;
+         gap: 30px;
      }
 
      .pricing_label h3 {
@@ -310,6 +334,11 @@
          visibility: visible;
          opacity: 1;
          width: 130px;
+         background-color: #036c74;
+         border-radius: 5px;
+         border: 1px solid rgba(255, 255, 255, 0.18);
+
+
      }
 
      .menu_bar ul li .dropdown_menu li:hover .dropdown_sub_menu {
@@ -318,6 +347,11 @@
          left: 125px;
          top: 12px;
          width: 100px;
+         background-color: #036c74;
+         border-radius: 5px;
+         border: 1px solid rgba(255, 255, 255, 0.18);
+
+
      }
 
      .dropdown_sub_menu {
@@ -326,10 +360,14 @@
          opacity: 0;
          text-align: left;
      }
+     .menu_bar ul li:hover label li {
+        transform: rotate(180deg);
+     }
 
      .menu_bar ul li .dropdown_menu li:hover label i {
          transform: rotate(270deg);
      }
+     
      .hamburg_button{
         display: block;
     }
@@ -464,7 +502,7 @@
      }
 
      .footer_watermark h6 {
-         font-size: 10px;
+         font-size: 14px;
 
      }
 
