@@ -330,6 +330,10 @@
      .menu_bar ul li .dropdown_menu li:hover label i {
          transform: rotate(270deg);
      }
+     .hamburg_button{
+        display: block;
+    }
+    
 
 
  }

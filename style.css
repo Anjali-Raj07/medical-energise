@@ -50,6 +50,9 @@ img {
 #check_super_sub{
     display: none;
 }
+.hamburg_button{
+    display: none;
+}
 .open_menu{
     /* position: absolute; */
     visibility: hidden;
