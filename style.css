@@ -51,6 +51,8 @@ img {
     display: none;
 }
 .menu_bar .hamburg_button{
+    /* visibility: hidden;
+    opacity: 0; */
     display: none;
 }
 .open_menu{
