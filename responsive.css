@@ -134,12 +134,12 @@
      }
      label{
         display: flex;
-        gap: 90px;
+        gap: 147px;
         align-items: center;
     }
    .check_super_sub label{
         display: flex;
-        gap: 40px;
+        gap: 70px;
         align-items: center;
     }
      .logo {
@@ -173,7 +173,7 @@
          /* backdrop-filter: blur(6px); */
          border-radius: 10px;
          border: 1px solid rgba(255, 255, 255, 0.18);
-         width: 180px;
+         width: 237px;
          text-align: left;
 
      }
@@ -197,7 +197,7 @@
          position: relative;
          opacity: 1;
          left: 23px;
-         width: 155px;
+         width: 190px;
          /* margin-top: 0px; */
          /* top: 65px; */
          transition: 0.3s  ease-in-out;
@@ -206,13 +206,17 @@
      
      #check:checked~label i::before {
          content: '\f00d';
+        width: 50px;
+     }
+     .open_menu {
+        width: 15px;
      }
      #check_super_sub:checked~.dropdown_sub_menu {
         visibility: visible;
         position: relative;
         opacity: 1;
         left: 39px;
-        width: 115px;
+        width: 130px;
         /* top: 65px; */
         transition: 0.3s ease-in-out;
         /* background-color:#1BA0AB; */
@@ -307,6 +311,7 @@
      .prdt_item_content {
          gap: 7px;
      }
+     
 
      .newsletters {
          padding: 10px 0px 10px 0px;
@@ -338,6 +343,7 @@
          background-color: #036c74;
          border-radius: 5px;
          border: 1px solid rgba(255, 255, 255, 0.18);
+         transition: 0.3s ease-in-out;
 
 
      }
@@ -351,6 +357,7 @@
          background-color: #036c74;
          border-radius: 5px;
          border: 1px solid rgba(255, 255, 255, 0.18);
+         transition: 0.3s ease-in-out;
 
 
      }
@@ -421,7 +428,8 @@
      }
 
      .prdt_item_content {
-         gap: 10px;
+         gap: 5px;
+         padding: 25px 25px 17px 25px;
      }
 
      .footer_bottom {
@@ -500,7 +508,7 @@
      }
 
      .footer_watermark h6 {
-         font-size: 14px;
+         font-size: 11px;
 
      }
 
@@ -510,6 +518,9 @@
 
      .footer_content {
          gap: 15px;
+     }
+     .footer_bottom{
+        text-align: center;
      }
 
  }
