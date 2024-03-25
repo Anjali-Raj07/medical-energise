@@ -339,21 +339,21 @@
      .menu_bar ul li:hover .dropdown_menu {
          visibility: visible;
          opacity: 1;
-         width: 130px;
+         width: 150px;
          background-color: #036c74;
          border-radius: 5px;
          border: 1px solid rgba(255, 255, 255, 0.18);
          transition: 0.3s ease-in-out;
 
-
+height: calc(100%-65%);
      }
 
      .menu_bar ul li .dropdown_menu li:hover .dropdown_sub_menu {
          visibility: visible;
          opacity: 1;
-         left: 125px;
+         left: 150px;
          top: 12px;
-         width: 100px;
+         width: 150px;
          background-color: #036c74;
          border-radius: 5px;
          border: 1px solid rgba(255, 255, 255, 0.18);
