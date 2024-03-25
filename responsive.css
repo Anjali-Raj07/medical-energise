@@ -103,7 +103,7 @@
 
  }
 
- @media screen and (max-width:769px) {
+ @media screen and (max-width:774px) {
     .banner_content h1 {
         font-size: 43px;
     }
@@ -203,11 +203,7 @@
          transition: 0.3s  ease-in-out;
          /* background-color:#1BA0AB; */
      }
-     /* #check_sub{
-        left: -100px;
-        margin-top: -20px;
-     } */
-
+     
      #check:checked~label i::before {
          content: '\f00d';
      }
@@ -252,12 +248,7 @@
     }
 
 
-     /* .menu_bar li:hover .dropdown_menu {
-         visibility: visible;
-         opacity: 1;
-         margin: 0px;
-     }  */
-
+     
      .btn.text_white {
          display: none;
      }
@@ -328,7 +319,7 @@
     
  }
 
- @media screen and (min-width:768px) {
+ @media screen and (min-width:773px) {
      .menu_bar ul li {
          position: relative;
      }
